@@ -18,7 +18,6 @@ def assigning_players(panthers, bandits, warriors):
         panthers.append(last)
        # print("panthers = {}".format(panthers))
             
-    
     return (warriors, bandits, panthers)
 
 
@@ -32,13 +31,9 @@ if __name__ == "__main__":
     #print(team_list)
     #print(len(player_dic))
     # Unpacking team list into individual variables to hold players. 
-    # panthers, bandits, warriors = team_list
     players = [name['name'] for name in player_dic]
-    #print(players)
-
-    # panthers = [random.choice(players) for i in range(6)]
-    # bandits = [random.choice(players) for i in range(6)]
-    # random.choice(players) for i in range(6)
+    
+    
     warriors = []
     bandits = []
     panthers = []
