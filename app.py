@@ -33,7 +33,7 @@ if __name__ == "__main__":
     # Unpacking team list into individual variables to hold players. 
     players = [name['name'] for name in player_dic]
     
-    
+
     warriors = []
     bandits = []
     panthers = []
@@ -42,4 +42,4 @@ if __name__ == "__main__":
 
     print(panthers)
     print(bandits)
-    print(players)
+    print(warriors)
