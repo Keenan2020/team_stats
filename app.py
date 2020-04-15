@@ -35,21 +35,22 @@ def height_conversion():
         h['height'] = int(h['height'])
 
 
-def start_console():
-    print("\n****************************")
-    print("      WELCOME TO THE \n BASKETBALL TEAM STATS TOOL")
-    print("****************************")
 
-
-def display_menu():
-    print("\n  ---- MENU ----")
-    print("\nHere are your choices:")
-    print("  1) Display Team Stats")
-    print("  2) Quit \n")
 
 if __name__ == "__main__":
 
+    def start_console():
+        print("\n****************************")
+        print("      WELCOME TO THE \n BASKETBALL TEAM STATS TOOL")
+        print("****************************")
 
+
+    def display_menu():
+        print("\n  ---- MENU ----")
+        print("\nHere are your choices:")
+        print("  1) Display Team Stats")
+        print("  2) Quit \n")
+        
     # Adding list with dictionaries to new variables in the program
     team_list = constants.TEAMS
     player_dic = constants.PLAYERS
